@@ -1,0 +1,31 @@
+::selection {
+  background: indigo;
+  color: plum;
+}
+
+:any-link {
+  box-shadow: 0 3ch 3ch 0 plum, 0 -3ch 3ch 0 plum;
+  background: plum;
+  color: indigo;
+}
+
+
+:any-link:hover {
+  background: hotpink; 
+}
+
+:focus {
+  filter: hue-rotate(-36deg);
+  outline: thick groove;
+}
+
+:active {
+  filter: hue-rotate(-18deg);
+  outline-style: dotted;
+}
+
+html {
+  background: plum;
+  background-image: radial-gradient(mediumpurple, plum);
+  color: indigo;
+}
