@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>fresnel plum</title>
+  <style>
+    svg {
+      background: plum;
+      background-image: radial-gradient(mediumpurple, plum);
+    }
+  </style>
+</svg>

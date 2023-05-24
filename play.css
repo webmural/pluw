@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+:any-link {
+  border-radius: 100%;
+  cursor: grab;
+  display: inline-flex;
+  padding: 3ch;
+  text-decoration: dotted line-through;
+}
+
+:focus {
+  text-decoration: dotted underline;
+}
+
+:hover {
+ text-decoration-style: double; 
+}
+
+html {
+  font-family: monospace;
+  font-size: max(3ch, 2vmax + 3vmin);
+  line-height: 1.618;
+}
+
+body {
+  margin: 2ch auto;
+  overflow-wrap: anywhere;
+  padding: 3ch;
+}
+
+article {
+  contain: layout;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  justify-content: center;
+  
+}
+
+nav {
+  align-items: center;
+  contain: layout;
+  display: flex;
+  flex-flow: column;
+}
+
+span {
+  font-weight: lighter;
+}
+
+.nap {
+  font-family: monospace;
+  font-weight: initial;
+  flex-basis: 100%;
+  margin: 1ch auto;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1;
+  margin: 5vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    transition: 500ms ease-out;
+  }
+}
