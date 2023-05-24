@@ -1,14 +1,7 @@
-## [`6oo`](index.html) [mural](https://webmural.com/6oo)
+## [~pluw~](index.html) [mural](https://webmural.com/pluw)
 
-### [color](6oo.css) [morf](https://webmural.com/deev)
+neptune `nav`
 
-* `border-radius`
-* `coral` 
-* `gradient`
-* `hue-rotate`
-* `transition: 600ms`
-* `shadow`
+### [fresnel](play.css) [`plum`](pluw.css)
 
-### [you goo](goo.css)
-
-`flex` `nav` with [gooey shadow](https://webmural.com/6oo)
+shadow scanner

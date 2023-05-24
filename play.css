@@ -66,6 +66,6 @@ h1 {
 
 @media (prefers-reduced-motion: no-preference) {
   * {
-    transition: 600ms ease;
+    transition: 500ms ease-out;
   }
 }
